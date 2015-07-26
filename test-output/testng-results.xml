@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12996" started-at="2015-07-26T10:28:46Z" finished-at="2015-07-26T10:28:59Z">
+  <suite name="Suite" duration-ms="7554" started-at="2015-07-26T13:14:42Z" finished-at="2015-07-26T13:14:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12996" started-at="2015-07-26T10:28:46Z" finished-at="2015-07-26T10:28:59Z">
-      <class name="test.TestTitle">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.TestTitle@29d52a29]" name="beforeTest" is-config="true" duration-ms="5769" started-at="2015-07-26T17:28:46Z" finished-at="2015-07-26T17:28:52Z">
+    <test name="Test" duration-ms="7554" started-at="2015-07-26T13:14:42Z" finished-at="2015-07-26T13:14:50Z">
+      <class name="com.TestTitle">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.TestTitle@6e551f11]" name="beforeTest" is-config="true" duration-ms="5009" started-at="2015-07-26T20:14:42Z" finished-at="2015-07-26T20:14:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:test.TestTitle@29d52a29]" name="testEasy" duration-ms="6965" started-at="2015-07-26T17:28:52Z" finished-at="2015-07-26T17:28:58Z">
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:com.TestTitle@6e551f11]" name="testEasy" duration-ms="2343" started-at="2015-07-26T20:14:47Z" finished-at="2015-07-26T20:14:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.TestTitle@29d52a29]" name="afterTest" is-config="true" duration-ms="245" started-at="2015-07-26T17:28:58Z" finished-at="2015-07-26T17:28:59Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.TestTitle@6e551f11]" name="afterTest" is-config="true" duration-ms="191" started-at="2015-07-26T20:14:50Z" finished-at="2015-07-26T20:14:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- test.TestTitle -->
+      </class> <!-- com.TestTitle -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
