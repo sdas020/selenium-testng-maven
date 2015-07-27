@@ -3,4 +3,5 @@
 
 [![Build Status](https://buildhive.cloudbees.com/job/nguoianphu/job/selenium-testng-maven/badge/icon)](https://buildhive.cloudbees.com/job/nguoianphu/job/selenium-testng-maven/)
 
-
+## Run
+```mvn clean install```
