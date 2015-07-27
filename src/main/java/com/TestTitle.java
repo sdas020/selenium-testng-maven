@@ -18,7 +18,7 @@ public class TestTitle {
 		driver.get(URL);
 		String title = driver.getTitle();
 		// AssertJUnit.assertTrue(title.contains("Home page Nguoi An Phu huyen An Phu tinh An Giang"));
-		AssertJUnit
+		Assert
 				.assertTrue(title
 						.contains("User login Nguoi An Phu huyen An Phu tinh An Giang"));
 	}
