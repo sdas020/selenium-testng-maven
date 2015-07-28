@@ -94,8 +94,8 @@ Step 11) Add the following code to the NewTest class:
 
 This code will verify the title of Guru99 Selenium Page 
 
-```package example;        
- 
+
+> package example;     
 import org.openqa.selenium.By;      
 import org.openqa.selenium.WebDriver;       
 import org.openqa.selenium.firefox.FirefoxDriver;       
@@ -120,7 +120,7 @@ public class NewTest {
             driver.quit();          
         }       
 }   
-```
+
 
 Step 12) Right-click on the WebdriverTest and select TestNG | Convert to TestNG.
 Eclipse will create testng.xml which says that you need to run only one test with the name NewTest as shown in the following screenshot: 
@@ -167,38 +167,27 @@ Create a JAR executable file to run our program on another machine with Maven.
 Create a main class named App
 
 ``` package com;
-
 import java.util.List;
-
 import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
 import org.testng.collections.Lists;
-
 public class App {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		System.out.println("Hello");
-
 		TestListenerAdapter tla = new TestListenerAdapter();
 		TestNG testng = new TestNG();
-
 		testng.addListener(tla);
 		// testng.setTestClasses(new Class[] { test.TestTitle.class });
-
 		List<String> suites = Lists.newArrayList();
 		suites.add("testng.xml");// path to xml..
 		// // suites.add("c:/tests/testng2.xml");
 		//
 		testng.setTestSuites(suites);
-
 		testng.run();
-
 	}
+} ```
 
-}
-```
 
  Check it:
  
@@ -210,10 +199,13 @@ Workaround:
 
  In Eclipse
  
+ 
  - Right click our project
  - Export
  - Runnable JAR file
  - Package required libraries into generated JAR
+ 
+ 
  
  Copy our ```App.jar``` and ```testng.xml``` to aonother machine and run
  
