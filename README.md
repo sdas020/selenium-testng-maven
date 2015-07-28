@@ -63,7 +63,7 @@ http://cdn.guru99.com/images/5-2015/050115_1023_MavenJenkin9.jpg
 
 Step 8).Add the Selenium and TestNG, JUnit dependencies to pom.xml in the <project> node: 
 
-```<dependencies>            
+> <dependencies>            
         <dependency>              
              <groupId>junit</groupId>                               
              <artifactId>junit</artifactId>                             
@@ -82,7 +82,7 @@ Step 8).Add the Selenium and TestNG, JUnit dependencies to pom.xml in the <proje
             <scope>test</scope>                                     
        </dependency>              
 </dependencies>
-```
+
 
 Step 9) Create a New TestNG Class. Enter Package name as "example" and "NewTest" in the Name: textbox and click on the Finish button as shown in the following screenshot: 
 
@@ -166,7 +166,7 @@ Create a JAR executable file to run our program on another machine with Maven.
 
 Create a main class named App
 
-``` package com;
+> package com;
 import java.util.List;
 import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
@@ -186,7 +186,7 @@ public class App {
 		testng.setTestSuites(suites);
 		testng.run();
 	}
-} ```
+} 
 
 
  Check it:
