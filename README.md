@@ -63,7 +63,7 @@ http://cdn.guru99.com/images/5-2015/050115_1023_MavenJenkin9.jpg
 
 Step 8).Add the Selenium and TestNG, JUnit dependencies to pom.xml in the <project> node: 
 
-```<dependencies>            
+``` <dependencies>            
         <dependency>              
              <groupId>junit</groupId>                               
              <artifactId>junit</artifactId>                             
@@ -81,8 +81,8 @@ Step 8).Add the Selenium and TestNG, JUnit dependencies to pom.xml in the <proje
             <version>6.8</version>                              
             <scope>test</scope>                                     
        </dependency>              
-</dependencies>
-```
+</dependencies> ```
+
 
 Step 9) Create a New TestNG Class. Enter Package name as "example" and "NewTest" in the Name: textbox and click on the Finish button as shown in the following screenshot: 
 
