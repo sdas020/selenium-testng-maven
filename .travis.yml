@@ -3,5 +3,5 @@ language: java
 before_install:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
-addons:
-  artifacts: true
+install:
+  - mvn clean test intall
