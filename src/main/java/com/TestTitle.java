@@ -1,11 +1,10 @@
 package com;
 
 import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
-import org.testng.annotations.Test;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
@@ -18,9 +17,8 @@ public class TestTitle {
 		driver.get(URL);
 		String title = driver.getTitle();
 		// AssertJUnit.assertTrue(title.contains("Home page Nguoi An Phu huyen An Phu tinh An Giang"));
-		Assert
-				.assertTrue(title
-						.contains("User login Nguoi An Phu huyen An Phu tinh An Giang"));
+		Assert.assertTrue(title
+				.contains("User login Nguoi An Phu huyen An Phu tinh An Giang"));
 	}
 
 	@BeforeTest
