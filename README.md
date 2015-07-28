@@ -196,7 +196,7 @@ public class App {
  
  ```mvn clean install```
  
-At this time, I can make a jar executable file by run ```mvn install`` but it can't run with the test classes.
+At this time, I can make a jar executable file by run ```mvn install``` but it can't run with the test classes.
 
 Workaround:
 
