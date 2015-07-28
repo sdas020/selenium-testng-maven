@@ -81,7 +81,8 @@ Step 8).Add the Selenium and TestNG, JUnit dependencies to pom.xml in the <proje
             <version>6.8</version>                              
             <scope>test</scope>                                     
        </dependency>              
-</dependencies>```
+</dependencies>
+```
 
 
 Step 9) Create a New TestNG Class. Enter Package name as "example" and "NewTest" in the Name: textbox and click on the Finish button as shown in the following screenshot: 
@@ -166,13 +167,14 @@ Create a JAR executable file to run our program on another machine with Maven.
 
 Create a main class named App
 
-> package com;
-import java.util.List;
-import org.testng.TestListenerAdapter;
-import org.testng.TestNG;
-import org.testng.collections.Lists;
-public class App {
-	public static void main(String[] args) {
+
+> package com;   
+import java.util.List; 
+import org.testng.TestListenerAdapter; 
+import org.testng.TestNG; 
+import org.testng.collections.Lists; 
+public class App { 
+	public static void main(String[] args) { 
 		// TODO Auto-generated method stub
 		System.out.println("Hello");
 		TestListenerAdapter tla = new TestListenerAdapter();
@@ -186,8 +188,8 @@ public class App {
 		testng.setTestSuites(suites);
 		testng.run();
 	}
-}
-
+} 
+ 
 
  Check it:
  
