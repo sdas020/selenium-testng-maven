@@ -166,7 +166,7 @@ Create a JAR executable file to run our program on another machine with Maven.
 
 Create a main class named App
 
-``` package com;
+> package com;
 import java.util.List;
 import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
@@ -186,7 +186,7 @@ public class App {
 		testng.setTestSuites(suites);
 		testng.run();
 	}
-} ```
+}
 
 
  Check it:
