@@ -17,13 +17,13 @@ public class App {
 		TestNG testng = new TestNG();
 
 		testng.addListener(tla);
-//		testng.setTestClasses(new Class[] { test.TestTitle.class });
+		// testng.setTestClasses(new Class[] { test.TestTitle.class });
 
-		 List<String> suites = Lists.newArrayList();
-		 suites.add("testng.xml");// path to xml..
+		List<String> suites = Lists.newArrayList();
+		suites.add("testng.xml");// path to xml..
 		// // suites.add("c:/tests/testng2.xml");
 		//
-		 testng.setTestSuites(suites);
+		testng.setTestSuites(suites);
 
 		testng.run();
 
