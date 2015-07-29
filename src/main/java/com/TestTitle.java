@@ -10,15 +10,16 @@ import org.testng.annotations.AfterTest;
 
 public class TestTitle {
 	private WebDriver driver = null;
-	public String URL = "http://www.nguoianphu.com/user/login";
+	// public String URL = "http://www.nguoianphu.com/user/login";
+	public String URL = "http://www.nguoianphu.com";
 
 	@Test
 	public void testEasy() {
 		driver.get(URL);
 		String title = driver.getTitle();
-		// AssertJUnit.assertTrue(title.contains("Home page Nguoi An Phu huyen An Phu tinh An Giang"));
-		Assert.assertTrue(title
-				.contains("User login Nguoi An Phu huyen An Phu tinh An Giang"));
+		Assert.assertTrue(title.contains("Home page Nguoi An Phu huyen An Phu tinh An Giang"));
+		//Assert.assertTrue(title
+		//		.contains("User login Nguoi An Phu huyen An Phu tinh An Giang"));
 	}
 
 	@BeforeTest
